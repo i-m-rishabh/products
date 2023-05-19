@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+    <label for="product_price">price:</label>
+    <input type="number" name="product_name" id="product_price">
+
+    <label for="product_name">name:</label>
+    <input type="text" name="product_name" id="product_name">
+    
+    <label for="product_category">category:</label>
+    <select name="" id="product_category">
+        <option value="foods">foods</option>
+        <option value="electronics">electronics</option>
+        <option value="skincare">skincare</option>
+    </select>
+    
+    <button id="add_product">add product</button>
+
+    <br>
+    <br>
+    <label for="foods">foods</label>
+    <ul id="foods"></ul>
+    <br>
+    <label for="electronics">electronics</label>
+    <ul id="electronics"></ul>
+    <br>
+    <label for="skincare">skincare</label>
+    <ul id="skincare"></ul>
+    <script src="index.js"></script>
+</body>
+</html>
